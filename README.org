@@ -1,1 +1,33 @@
 * camome_slack
+
+Send event to Slack via gRPC.
+
+** Requirements
++ Python 3.x
+
+** Installation & Settings
+1. Clone camome_slack from GitHub
+
+#+BEGIN_SRC sh
+$ git clone git@github.com:nomlab/camome_slack
+#+END_SRC
+
+2. Install necessary python libraries
+
+#+BEGIN_SRC sh
+$ pip -r install requirements.txt
+#+END_SRC
+
+3. Set slack token
+
+#+BEGIN_SRC sh
+$ cp settings.yml.sample settings.yml
+$ vim settings.yml # - > Replace <YOUR_SLACK_TOKEN> to your slack token
+#+END_SRC
+
+** Launch camome_slack
+1. Launch camome_slack server
+
+#+BEGIN_SRC sh
+$ python slack_server.py
+#+END_SRC
