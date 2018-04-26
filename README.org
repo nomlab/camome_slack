@@ -31,3 +31,5 @@ $ vim settings.yml # - > Replace <YOUR_SLACK_TOKEN> to your slack token
 #+BEGIN_SRC sh
 $ python slack_server.py
 #+END_SRC
+
+Then launch caome_slack on =http://localhost:50051= .
